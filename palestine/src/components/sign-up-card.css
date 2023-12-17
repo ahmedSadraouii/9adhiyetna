@@ -1,0 +1,48 @@
+.sign-up-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.sign-up-text p {
+  margin: 0;
+  color: #581d1f;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: DM Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 360% */
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.inputs-container input {
+  border-radius: 45px;
+  background: #e9eceb;
+  width: 401.721px;
+  height: 54.645px;
+  border: none;
+}
+.inputs-container input::placeholder {
+  text-indent: 25px;
+}
+.sign-up-card {
+  display: flex;
+  gap: 2rem;
+  border-radius: 30px;
+  background: #d9d9d9;
+  width: 844px;
+  height: 481px;
+}
+.sign-up-card img {
+  padding: 50px 0 50px 20px;
+}
+.sign-up-fields {
+  margin-top: 30px;
+}

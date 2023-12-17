@@ -1,0 +1,14 @@
+.sign-up-p {
+  color: #fcfffe;
+
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: DM Sans;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 130.909% */
+}
+#register {
+  margin-top: 12px;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap");
+
+.home-page-container {
+  background-image: url("../../assets//background2.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Cairo", sans-serif;
+}
+.home-page-container li {
+  list-style: none;
+  width: 51px;
+  color: #e9eceb;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  z-index: 1000;
+  white-space: nowrap;
+}
+.home-page-container li:hover {
+  color: #61dcbf;
+}
+.home-page-container li:first-child {
+  color: #61dcbf;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 800px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+/* Dark overlay */
+.home-page-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the last value (alpha) for darkness */
+  z-index: 1; /* Adjust the z-index to control stacking order */
+}
+.center-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease; /* Adjust the duration and easing function as needed */
+  z-index: 100;
+}
+.p2 {
+  width: 670px;
+  height: 222px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 130.909% */
+}
+.p1 {
+  width: 862px;
+  height: 342px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 130.909% */
+}
+.buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.home-logo {
+  width: 70px;
+  height: 70px;
+}
